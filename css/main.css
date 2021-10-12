@@ -14,11 +14,11 @@ html {
   font-size: 12px;
   font-family: "Quicksand", sans-serif;
   color: white;
-  background: radial-gradient(
-    ellipse farthest-corner at 70% 70%,
-    #283a4e 0%,
-    #283a4e 45%,
-    #2E8B57 100%
+  background: linear-gradient(
+    #8693e0 0%,
+    #828bd8 0%,
+    #9ecdec 45%,
+    #ecd1f3 100%
   );
   overflow-x: hidden;
 }
