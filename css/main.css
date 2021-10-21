@@ -32,15 +32,15 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 1rem;
 }
 
 body::-webkit-scrollbar-track {
-  background: hsl(240, 6%, 13%);
+  background:#8693e0 0%;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #797979;
+  background: #ecd1f3 100%;
 }
 
 section {
