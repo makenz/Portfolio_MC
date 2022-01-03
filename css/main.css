@@ -15,10 +15,10 @@ html {
   font-family: "Quicksand", sans-serif;
   color: white;
   background: linear-gradient(
-    #8693e0 0%,
-    #828bd8 0%,
-    #9ecdec 45%,
-    #ecd1f3 100%
+    #f4acb7 0%,
+    #ecbdc4 0%,
+    #efcfd4 45%,
+    #F2D2BD 100%
   );
   overflow-x: hidden;
 }
@@ -171,7 +171,7 @@ li {
 }
 
 /* Astronaut */
-.astronaut {
+.catballoon {
   max-width: 280px;
   margin: auto;
   padding-top: 16rem;
@@ -179,10 +179,6 @@ li {
   animation: fadeIn ease-in-out 2s, float 2.5s ease-in-out infinite;
 }
 
-.astronaut img {
-  transform: rotate(-15deg);
-  user-select: none;
-}
 
 /* General-purpose Container */
 .container {
@@ -518,7 +514,7 @@ footer {
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
-  .astronaut {
+  .catballoon {
     padding-top: 30rem;
   }
 
@@ -605,7 +601,7 @@ footer {
     margin: 0 0.25rem;
   }
 
-  .astronaut {
+  .catballoon {
     padding-top: 22rem;
   }
 
@@ -637,7 +633,7 @@ footer {
     padding-right: 0;
   }
 
-  .astronaut {
+  .catballoon {
     padding-top: 17rem;
   }
 
